@@ -4,20 +4,20 @@ import ResultImg from "../assets/Result.png"
 function ProjectDetails() {
     const sections = [
         {
-            title: "การเก็บข้อมูลและการ Label",
-            description: "เริ่มต้นจากการลงพื้นที่เก็บภาพดอกฟ้าทะลายโจรในระยะต่างๆ และนำมาทำ Image Labeling ด้วยมือทีละภาพ เพื่อสร้าง Dataset ที่มีคุณภาพสูงสำหรับนำไปใช้ในการสอน Model ของเรา",
+            title: "Data Collection & Labeling",
+            description: "We started by collecting field images of Green Chiretta (Fah Talai Jone) at various growth stages. Manual image labeling was performed frame-by-frame to create a high-quality dataset for training our model.",
             imagePlaceholder: testImg,
             alt: "Data Collection"
         },
         {
-            title: "การ Train Model",
-            description: "นำข้อมูลที่ผ่านการ Label มาเข้าสู่กระบวนการ Train Model โดยใช้โครงสร้าง CNN ที่เหมาะสมกับการตรวจจับความแตกต่างเพียงเล็กน้อยของดอกไม้",
+            title: "Model Training",
+            description: "The labeled data was fed into the training process using a CNN architecture optimized for detecting subtle differences in flower features.",
             isIcons: true,
             alt: "AI Research"
         },
         {
-            title: "ผลลัพธ์ผ่าน Web application",
-            description: "Model ที่ได้สามารถทำนายระยะการบานของดอกฟ้าทะลายโจรได้ จะนำไปประยุกต์ใช้โดยผ่าน Web application ที่พัฒนาขึ้นมาเพื่อให้ผู้ใช้สามารถเห็นผลลัพธ์ได้สะดวกรวดเร็ว",
+            title: "Web Application Results",
+            description: "The trained model predicts the blooming stage of Green Chiretta. This functionality is integrated into a web application designed to provide users with fast and convenient results.",
             imagePlaceholder: ResultImg,
             alt: "Prediction Results"
         }

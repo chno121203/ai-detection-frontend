@@ -8,13 +8,12 @@ function About() {
                     <h2 className="text-4xl font-bold mb-8 text-gradient">My project</h2>
                     <div className="space-y-6 text-slate-300">
                         <p>
-                            สวัสดีครับ ผมเคยทำโปรเจกต์จบเกี่ยวกับ
-                            <span className="text-white font-semibold"> Artificial Intelligence</span> และ
+                            Hello! I worked on a graduation project involving
+                            <span className="text-white font-semibold"> Artificial Intelligence</span> and
                             <span className="text-white font-semibold"> Web Development</span>
                         </p>
                         <p>
-                            โปรเจกต์นี้เริ่มต้นจากความตั้งใจที่จะนำความรู้ที่ได้เรียนมาประยุกต์ใช้ เกี่ยวกับการคัดแยกจำแนกรูปภาพด้วย CNN มาช่วยวิจัยเรื่องการบานของดอกฟ้าทะลายโจร โดยการ label ภาพของดอกฟ้าทะลายโจร
-                            และนำมา train model เพื่อทำนายการบานของดอกฟ้าทะลายโจร และ ระยะเวลาที่ควรจะเก็บเกี่ยว โดยมีที่ปรึกษาคือ เป็นอาจารย์ทั้งจากคณะวิศวกรรมศาสตร์ และคณะเกษตรศาสตร์
+                            This project began with the intention of applying knowledge of image classification using CNNs to research the blooming process of Green Chiretta (Fah Talai Jone). By labeling images and training a model to predict blooming stages and optimal harvest times, this research was conducted under the supervision of professors from both the Faculty of Engineering and the Faculty of Agriculture.
                         </p>
                     </div>
                 </div>
