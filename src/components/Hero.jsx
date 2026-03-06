@@ -11,9 +11,7 @@ function Hero() {
                     Chakrit <span className="text-gradient">Normsatkul</span>
                 </h1>
                 <p className="text-lg text-slate-400 max-w-xl leading-relaxed">
-                    I'm a passionate developer focused on building intelligent web applications and
-                    interactive experiences. Currently exploring the intersection of AI and frontend
-                    technologies to create tools that make an impact.
+                    Recent graduate in Computer Engineering and Artificial Intelligence with experience in web development and AI-based computer vision systems. Skilled in building responsive web applications and integrating machine learning models using TensorFlow.js. Passionate about developing intelligent systems and applying AI technologies to real-world problems.
                 </p>
             </div>
 
