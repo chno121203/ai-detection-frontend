@@ -11,7 +11,7 @@ function Hero() {
                     Chakrit <span className="text-gradient">Normsatkul</span>
                 </h1>
                 <p className="text-lg text-slate-400 max-w-xl leading-relaxed">
-                    Recent graduate in Computer Engineering and Artificial Intelligence with experience in web development and AI-based computer vision systems. Skilled in building responsive web applications and integrating machine learning models using TensorFlow.js. Passionate about developing intelligent systems and applying AI technologies to real-world problems.
+                    Recent graduate in Computer Engineering and Artificial Intelligence with experience in computer vision and web development. Developed a flower bloom detection system for analyzing harvest timing, with hands-on experience in object labeling and dataset preparation. Skilled in integrating trained machine learning models into web applications
                 </p>
             </div>
 
