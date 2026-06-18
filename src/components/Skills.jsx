@@ -7,6 +7,7 @@ function Skills() {
             items: [
                 "JavaScript",
                 "TypeScript (Basic)",
+                "Dart / Flutter",
                 "Python",
                 "HTML / CSS",
                 "React.js",

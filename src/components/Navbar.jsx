@@ -15,7 +15,7 @@ function Navbar({ onContactClick }) {
         </a>
 
         {/* Floating Capsule Menu */}
-        <nav className="glass rounded-full p-1 flex items-center gap-0.5 md:gap-1 bg-slate-900/60 backdrop-blur-xl border border-white/10 shadow-lg shadow-black/20 overflow-x-auto max-w-[70%] sm:max-w-none no-scrollbar">
+        <nav className="md:absolute md:left-1/2 md:-translate-x-1/2 glass rounded-full p-1 flex items-center gap-0.5 md:gap-1 bg-slate-900/60 backdrop-blur-xl border border-white/10 shadow-lg shadow-black/20 overflow-x-auto max-w-[70%] sm:max-w-none no-scrollbar">
           <a
             href="#"
             className="px-3 md:px-4 py-1.5 md:py-2 rounded-full text-[11px] md:text-xs font-semibold text-slate-300 hover:text-white hover:bg-white/10 transition-all duration-300 whitespace-nowrap"
