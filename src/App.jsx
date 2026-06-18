@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import WorkExperience from "./components/WorkExperience";
+import PersonalProjects from "./components/PersonalProjects";
 import ProjectDetails from "./components/ProjectDetails";
 import ContactModal from "./components/ContactModal";
 
@@ -22,6 +23,7 @@ function App() {
         <About />
         <WorkExperience />
         <Skills />
+        <PersonalProjects />
         <ProjectDetails />
       </main>
 
