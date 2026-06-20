@@ -3,14 +3,14 @@ import React from 'react';
 function About() {
     return (
         <section id="about" className="py-24 px-6 relative overflow-hidden max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-12 gap-12 md:gap-16 items-start">
+            <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-16 items-start">
                 {/* Left Side: Avatar with gradient ring */}
-                <div className="md:col-span-5 flex justify-center sticky top-24">
+                <div className="md:col-span-5 flex justify-center md:sticky md:top-24">
                     <div className="relative group">
                         {/* Glow Behind */}
                         <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full blur opacity-25 group-hover:opacity-40 transition duration-500"></div>
                         {/* Avatar Image Wrapper */}
-                        <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden p-[3px] bg-gradient-to-tr from-blue-500 via-indigo-500 to-violet-500">
+                        <div className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-full overflow-hidden p-[3px] bg-gradient-to-tr from-blue-500 via-indigo-500 to-violet-500">
                             <img
                                 src="/Profile.png"
                                 alt="Chakrit Normsatkul"
