@@ -31,6 +31,16 @@ function PersonalProjects() {
             glowColor: "hover:shadow-[0_0_30px_rgba(139,92,246,0.12)] hover:border-violet-500/30",
             textColor: "text-violet-400",
             dotColor: "bg-violet-400 shadow-violet-400"
+        },
+        {
+            title: "Secure RAG Pipeline",
+            subtitle: "ระบบค้นหาและประมวลผลข้อมูล",
+            description: "A secure Retrieval-Augmented Generation (RAG) pipeline built with FastAPI, Streamlit, PostgreSQL, and Groq/LLM integration.",
+            github: "https://github.com/chno121203/secure-rag-pipeline",
+            tech: ["FastAPI", "Streamlit", "PostgreSQL", "Python"],
+            glowColor: "hover:shadow-[0_0_30px_rgba(56,189,248,0.12)] hover:border-sky-500/30",
+            textColor: "text-sky-400",
+            dotColor: "bg-sky-400 shadow-sky-400"
         }
     ];
 
